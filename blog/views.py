@@ -13,3 +13,4 @@ class BlogView(ModelViewSet):
     queryset = Blog.objects.all()
     serializer_class = BlogSerializer
     filter_fields = ["category"]
+    search_fields = ["title", "content"]
