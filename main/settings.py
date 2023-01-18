@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     "user",
     #third party apps
     "rest_framework",
+    "django_filters",
     'rest_framework.authtoken',
 ]
 
